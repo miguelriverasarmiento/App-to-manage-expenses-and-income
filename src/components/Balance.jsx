@@ -10,9 +10,9 @@ function Balance() {
 
   return (
     <div className='flex justify-between'>
-      <h3>Balance</h3>
+      <h3 className='font-light font-serif'>Balance</h3>
       <div>
-        <h1 className='text-2x1 font-bold'>${total}</h1>
+        <h1 className='text-4x1 font-semibold'>${total}</h1>
       </div>
     </div>
   )
